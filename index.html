@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Blue Water</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #002b45;
+            overflow-x: hidden;
+            position: relative;
+            color: white;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('./static/jellyfish-7320516_1280.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            overflow-x: hidden;
+            position: relative;
+        }
+        /* Wave container */
+        
+        .wave-bg {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        .wave-bg svg {
+            width: 200%;
+            height: 100%;
+            animation: wave 40s linear infinite;
+        }
+        
+        @keyframes wave {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+        
+        .navbar {
+            background-image: linear-gradient(to right, #002b45, #003f5c);
+        }
+        
+        .navbar-brand,
+        h1,
+        h2 {
+            color: #a3e4f7;
+        }
+        
+        .form-control {
+            background-color: #a3e4f7;
+            color: white;
+            border: none;
+            border-radius: 20px;
+        }
+        
+        .btn {
+            background-color: #00bcd4;
+            color: #003f5c;
+            border-radius: 20px;
+        }
+        
+        .lead {
+            color: #d0f4f2;
+        }
+        
+        .shadow-lg {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(60px);
+            border-radius: 16px;
+        }
+        
+        img {
+            border-radius: 12px;
+        }
+        
+        footer {
+            background-image: linear-gradient(to right, #002b45, #003f5c);
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Animated Wave Background -->
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Deep Blue Water</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #a3e4f7;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #ffffff;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Categories.html" style="color: #ffffff;">Categories</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mt-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Deep Blue Water</h1>
+                <p class="lead">
+                    Dive Into the Wonders of Every Ocean and seas
+                </p>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+                <img src="./static/Gemini_Generated_Image_hwdh7nhwdh7nhwdh.jpg" alt="Ocean" width="50%" height="auto" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h2 class="display-4 fw-bold lh-1">Overview</h1>
+                    <p class="lead">
+                        Deep Blue Water is an educational website dedicated to exploring the rich history and fascinating facts about the world’s oceans and seas. Rather than focusing on aquatic life, the website delves into the origins of oceans, their geological evolution,
+                        and their influence on human history and global development. It presents intriguing facts about oceanic phenomena, famous sea voyages, historic naval explorations, and the cultural significance of seas throughout civilizations.
+                        The site aims to engage readers with lesser-known insights, scientific discoveries, and historical events that have shaped our understanding of the ocean. It is an ideal platform for history enthusiasts, students, and anyone curious
+                        about the hidden stories and remarkable truths of Earth’s vast and ancient waters.
+                    </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h2 class="display-4 fw-bold lh-1">Facts About Ocean</h1>
+                    <p class="lead">
+                        1. The Ocean is Earth's Largest Museum Over 3 million shipwrecks lie on the ocean floor, including ancient trading ships, war vessels, and aircraft.</p>
+                    <p class="lead">2. We’ve Explored Less Than 10% More than 90% of the ocean remains unexplored—we know more about the moon’s surface than our own seabeds.</p>
+                    <p class="lead">3. Underwater Waterfalls Exist The world’s largest waterfall is underwater! The Denmark Strait cataract, between Greenland and Iceland, plunges over 3,500 meters—three times taller than Niagara Falls.</p>
+                    <p class="lead">4. Mountains and Lakes Exist Below the Sea There are underwater mountain ranges (like the Mid-Atlantic Ridge) and even brine pools and lakes with their own shores beneath the ocean.</p>
+                    <p class="lead">5. The Ocean Glows Many marine creatures (like jellyfish, squid, and deep-sea fish) exhibit bioluminescence, creating a natural glowing effect in pitch-dark waters.</p>
+                    <p class="lead">6. The Ocean is a Sound Superhighway Sound travels 4 times faster in water than in air, and some whale calls can be heard across entire ocean basins.</p>
+                    <p class="lead">7. Hidden Heat and Carbon Sink Oceans absorb about 90% of the excess heat from global warming and 30% of human CO₂ emissions, making them critical in climate regulation.</p>
+                    <p class="lead">8. Marine Snow is Constantly Falling In the deep sea, particles of dead plants, animals, and poop create a slow, constant snowfall called marine snow, feeding deep-sea life.</p>
+                    <p class="lead">9. There Are Entire Rivers in the Ocean Ocean currents act like rivers, with distinct temperatures, salinity, and flow paths—such as the Gulf Stream and Kuroshio Current.</p>
+                    <p class="lead">10. The Ocean Has Its Own Internet Over 99% of international data (including internet traffic) travels through undersea fiber-optic cables, not satellites.
+                    </p>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        Made by Parth Singh Bisen
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
